@@ -7,14 +7,22 @@
     <link href="/src/styles.css" rel="stylesheet">
     <title>Vite App</title>
   </head>
-  <body class="bg-blue-400">
-    <nav class="text-3xl font-bold bg-pink-300">
-    Bandolina
+  <body class="bg-blue-400 flex flex-col">
+    <nav class="text-3xl font-bold bg-pink-300 flex justify-between items-center">
+      <div class="nav-div__logo">
+        Bandolina
+      </div>
+      <div class="nav-div__navigation flex xl:gap-40 items-center">
+        <a href="">Home</a>
+        <a href="">Meni</a>
+        <a href="">Kontakt</a>
+        <a class="border-4 border-solid border-black rounded-lg" href="">Naruci</a>
+      </div>
     </nav>
 
     <section class="flex justify-center items-center h-screen">
       <div class="card-container flex gap-6">
-        <div class="card bg-white p-4 flex gap-4 text-slate-900 rounded-lg w-[30rem]">
+        <div class="card bg-white p-4 flex gap-4 text-slate-900 rounded-lg xl:w-[30rem]">
           <img src="images\breskvice.jpg" alt="kolac breskvica na tanjuricu" class="size-32 rounded-md object-cover">
           <div class="grow">
             <div class="flex justify-between mb-2">
@@ -42,7 +50,7 @@
             </div>
           </div>
         </div>
-        <div class="card bg-white p-4 flex gap-4 text-slate-900 rounded-lg w-[30rem]">
+        <div class="card bg-white p-4 flex gap-4 text-slate-900 rounded-lg xl:w-[30rem]">
           <img src="images\subara.jpg" alt="kolac subara na tanjuricu" class="size-32 rounded-md object-cover">
           <div class="grow">
             <div class="flex justify-between mb-2">
